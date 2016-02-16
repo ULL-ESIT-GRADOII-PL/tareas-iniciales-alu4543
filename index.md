@@ -1,100 +1,234 @@
-Tutorial NodeJS, Express, Atom, GitHub, Cloud9 y Markdown
-======================================================
+# Tareas Iniciales
+#### Autor : MohammedMahrach
+#### Credencials : alu0100777475 / alu4543
 
-## Instalación de NodeJS en Windows
+Configuración de las herramientas y tecnologías a utilizar en la asignatura Procesadores de Lenguajes.
 
-Es un intérprete **Javascript** del lado del servidor que cambia la noción de cómo debería trabajar un servidor. Su meta es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sólo una máquina física.
+> NodeJS
 
-Para empezar a utilizarlo descargar el paquete de instalación para la plataforma windows y seguir los pasos del asistente de instalación de **NodeJS**.
+> Express
 
-![](images/node.png)
+> Atom
 
-Abrimos la consola de **NodeJS** y comprobamos que se ha instalado correctamente, aparecerá el siguiente mensaje que indica que se ha instalado.
+> GitHub
 
-Instalamos el framework **Express** con la consola de **NodeJS** y el siguiente comando:
+> Cloud9
 
-**Comando**
+> Markdown
 
-> `npm install express --save`
+## 1. Darse de alta en la comunidad Google + ULL-ESIT-PL-1516
+### 1.1. Solicitud de alta
 
-![](images/node2.png)
+> Desde el enlace  :[*http://mail.ull.edu.es*](http://mail.ull.edu.es)
+date de alta en g+ (si no lo has hecho) siguiendo el enlace en +me o +yo en la parte superior derecha
 
-## Instalación del editor de texto Atom
+![](asserts/images/image1.png)
 
-Usaremos **Atom** como editor de texto para el desarrollo de nuestros proyectos, para ello descargamos el instalador en la página oficial de atom, y a continuación ejecutamos el asistente de instalación.
+## 2. Instala node.JS
+### 2.1. Instalación de Node.js
 
-![](images/atom1.png)
+> Si estás en Windows sigue las instrucciones en GitHub para Windows : [*https://nodejs.org/en/*](https://nodejs.org/en/)
 
-Dado que vamos a utilizar el formato **Markdown** es bueno saber que en **Atom** podremos obtener una preview del contenido de nuestro fichero Markdown ya que incorpora el formato **GitHub Markdown** con el comando:
+![](asserts/images/image2.png)
 
-**Comando**
+> Si utilizas linux o mac instala via apt-get
 
-> * Markdown preview `ctrl+shift+m`
-> * Markdown export to HTML `Save As HTML`
+    $ sudo apt-get install nodejs
 
+> [Opcional] y recomendado instalar complementos nativos con npm vamos a necesitar instalar las herramientas para compilar:
 
+    $ sudo apt-get install build-essential
 
-## Instalación de GitHub Desktop
+### 2.2. Comprueba que npm funciona
 
-GitHub es una plataforma para alojar proyectos utilizando el sistema de control de versiones **Git**. Para instalarlo accedemos a la página oficial de **GitHub** y descargamos el instalador que ejecutaremos posteriormente para iniciar el asistente de instalación.
+> Desde la consola comprobamos si la utilidad de la linea de comandos npm funciona.
 
-![](images/git.png)
+![](asserts/images/image3.png)
 
-Una vez instalado configuramos nuestra cuenta de **GitHub** en la aplicación para poder sincronizar nuestro repositorio tanto local como remoto, en caso de no tener cuenta crearemos una en la página de **GitHub**.
+## 3. Instala express
 
-## Cloud 9
+> Para instalar express tenemos que tener el npm iniciado.
 
-Es un IDE de desarrollo online, para su uso será necesario crear una cuenta en la página oficial o acceder con las credenciales de GitHub si ya se dispone de una cuenta. Una vez registrados podremos crear proyectos de varias tecnologías como puede ser NodeJS, HTML5, C++, Ruby On Rails, etc.
+### 3.1. instalación local a un proyecto :
 
-![](images/cloud.png)
+    $ mkdir myapp
+    $ cd myapp
+    $ npm init
+    $ npm install express --save
 
-Si disponemos de algún proyecto en un repositorio de GitHub podremos asociarlo a **Cloud9** para trabajar en él tan solo creando un “`nuevo workspace`” y añadiendo la url *git* del correspondiente repositorio.
+> opción --save guarda dependencia en package.json
 
-![](images/cloud2.png)
+### 3.2. instalación global
 
-Además **Cloud9** permite el trabajo en equipo en el IDE añadiendo miembros a tu workspace.
+    $ npm install -g express
 
-## Markdown
+> la opcion -g para la instalación global
 
-Markdown es un lenguaje de marcado ligero, lo vamos a utilizar en el editor de texto Atom ya que incorpora por defecto este formato y podremos obtener un live preview mientras vamos desarrollando además de poder exportarlo a HTML sin la necesidad de usar un conversor adicional.
+## 4. Pon tu foto en tu perfil del campus virtual
 
-Sintaxis:
+![](asserts/images/image4.png)
 
+## 5. Instala Git.
+### 5.1. GitHub para Windows
+> Si estás en Windows sigue las instrucciones en GitHub para Windows : [*https://git-for-windows.github.io*](https://git-for-windows.github.io)
 
-Encabezados
+> Descarga e instala el fichero : Git-2.6.0-64-bit.exe
+
+![](asserts/images/image5.png) ![](asserts/images/image6.png)
+
+![](asserts/images/image7.png) ![](asserts/images/image8.png)
+
+## 6. Abre una cuenta en GitHub si no la tienes
+
+> Ya tenemos una cuenta publica abierta y esta en el siguiente enlace: [*https://github.com/alu4543*](https://github.com/alu4543)
+
+![](asserts/images/image9.png)
+
+## 7. Si dispones de un Mac o Windows instala GitHub App
+### 7.1. Descargar el instalador
+
+> Desde el siguiente enlace se puede Descargar y instalar GitHub Para Windows Desktop : [*https://desktop.github.com*](https://desktop.github.com)
+
+![](asserts/images/image10.png)
+
+### 7.2. Configurción
+
+![](asserts/images/image11.png)
+
+## 8. Instala Atom, el editor desarrollado por GitHub
+### 8.1. Descargar el instalador
+> Desde el siguiente enlace se puede Descargar y instalar atom Para Windows Desktop.
+
+[*https://atom.io*](https://atom.io)
+
+![](asserts/images/image12.png)
+
+### 8.2. Prueba
+
+>Ya tenemos el atom instalado!
+
+![](asserts/images/image13.png)
+
+## 9. cloud9 c9.io
+
+>Abre una cuenta en c9.io (cloud9).
+
+![](asserts/images/image14.png)
+
+>Vincula tu cuenta de GitHub con c9.
+
+![](asserts/images/image15.png) ![](asserts/images/image16.png)
+
+## 10. Markdown
+### 10.1. Definición
+
+![](asserts/images/markdown.png)
+
+>Markdown es un lenguaje de marcado ligero creado por John Gruber  que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en sus forma de entrada como de salida.
+Inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.
+Markdown convierte el texto marcado en documentos XHTML utlizando html2text creado por Aaron Swartz.
+Markdown fue implementado originariamente en Perl por Gruber, pero desde entonces ha sido traducido a multitud de lenguajes de programación, incluyendo PHP, Python, Ruby, Java y Common Lisp.
+
+### 10.2. Pequeño tutorial:
+
+>Saltos de línea: Los saltos de línea se generan cuando se encuentran dos espacios juntos
+
 ```
-# Encabezado H1
-## Encabezado H2
-### Encabezado H3
-```
-Tipografía
-```
-**Negrita**
-*Cursiva*
-> Citas
-Parrafo separar por lineas en blanco
-`Codigo`
-```
-Recursos
-```
-![Texto imagen](url-imagen)
-* [Links](https://example.com)
-```
-Listas
-```
-1. Lista 1
-2. Lista 2
-
-* Lista 1
-* Lista 2
+"Quien fue a sevilla,  
+perdió su silla"
 ```
 
-**Recursos:**
+>Encabezados: Los encabezados se generan cuando se encuentra una almohadilla antes de texto
 
-* [NodeJS](https://nodejs.org)
-* [Express](http://expressjs.com)
-* [Atom IDE](https://atom.io)
-* [GitHub Desktop](https://desktop.github.com)
-* [GitHub Pages](https://pages.github.com/)
-* [Cloud 9 IDE](https://c9.io)
-* [Markdown](http://daringfireball.net/projects/markdown/)
+```
+# Encabezado h1
+## Encabezado h2
+### Encabezado h3
+...
+```
+
+>Citas: Para citar solo es necesario escribir una cuña antes del texto
+
+```
+> La vida es muy corta para aprender Alemán. -Tad Marburg
+```
+
+>Texto con énfasis: Agregar un asterisco para cursiva y dos para negrita
+
+```
+*énfasis* (cursiva)
+**énfasis fuerte** (negrita)
+```
+
+>Código: Se utiliza el acento grave para identificar código
+```
+`Código`
+```
+
+
+\`\`\`
+
+Código en
+varias líneas
+
+\`\`\`
+
+>Listas:
+
+```
+* Un elemento en una lista no ordenada
+* Otro elemento en una lista
+1. Elemento en una lista enumerada u ordenada.
+2. Otro elemento
+```
+
+>Enlaces:
+
+```
+[Texto del enlace aquí](URL "Título del enlace")
+```
+
+>Imágenes:
+
+```
+![Texto alternativo](URL "Título de la imagen")
+```
+
+## 11. Instalar el traductor pandoc para traducir Markdown a HTML.
+>Si necesitas convertir archivos de un formato de marcas a otro, Pandoc es su navaja suiza del ejército.
+> mas info : [*http://pandoc.org/*](http://pandoc.org)
+### 11.1. Para instalar en Windows:
+
+[*https://github.com/jgm/pandoc/releases/tag/1.15.0.6*](https://github.com/jgm/pandoc/releases/tag/1.15.0.6)
+
+![](asserts/images/image17.png)
+
+### 11.2. Pandoc Getting started.
+
+[*http://pandoc.org/getting-started.html/*](http://pandoc.org/getting-started.html)
+
+> To convert it to HTML, use this command:
+
+    $ pandoc test1.md -f markdown -t html -s -o test1.html
+
+> To create a LaTeX document, you just need to change the command slightly:
+
+    $ pandoc test1.md -f markdown -t latex -s -o test1.tex
+
+> OR..
+
+    $ pandoc test1.md -s -o test1.tex
+
+> if you want to create a PDF, you’ll need to have LaTeX installed. (See MacTeX on OS X, MiKTeX on Windows, or install the texlive package in linux.) Then do
+
+    $ pandoc test1.md -s -o test1.pdf
+
+### 11.3. Ejemplo :
+
+![](asserts/images/image18.png)
+
+## 12. Enlace
+
+[Página personal de prácticas](http://alu4543.github.io/)
+
+[Página de la práctica inicial](http://alu4543.github.io/PL/Iniciales/)
