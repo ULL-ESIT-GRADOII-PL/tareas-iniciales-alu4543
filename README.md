@@ -8,6 +8,9 @@
 ### Herramientas a instalar
 * NodeJS
 * Express
+* git
+* git Desktop
+* Express
 * Atom
 * GitHub
 * Cloud9
